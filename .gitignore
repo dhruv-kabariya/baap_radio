@@ -1,0 +1,9 @@
+.token
+.command
+
+Lib/
+Scripts/
+share/
+include/
+etc/
+__pycache__/
