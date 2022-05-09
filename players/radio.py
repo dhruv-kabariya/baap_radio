@@ -89,6 +89,18 @@ def play():
         # stn[i].button('Play')
 
         stn[i].button('play',on_click=play_audio,args=(info,tcp.data.radio_stn_list[i].multicast_address,tcp.data.radio_stn_list[i].data_port,tcp.data.radio_stn_list[i].info_port),key=i) 
+
+    with st.container():
+        st.markdown("##")
+        
+        
+        col1, col2 = st.columns([2,1])
+
+        col1.markdown("<h2 style='color: orange;'>Hymn For The Weeknds</h2>", unsafe_allow_html=True)
+        col1.markdown("<h4 style='color: green;'>Time => 1 : 37</h4>", unsafe_allow_html=True)
+        
+        
+        col2.markdown("<h2 style='color: orange;'>Thunder</h2>", unsafe_allow_html=True)
     
     
 main()
